@@ -7,7 +7,7 @@ public class MaxNumberPrinter {
         if (first > second && first > third) {
             System.out.println(first);
         } else if (second > first && second > third) {
-            System.out.println(third);
+            System.out.println(second);
         } else if (third > first && third > second) {
             System.out.println(third);
         } else {
